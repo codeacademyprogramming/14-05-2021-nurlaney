@@ -1,0 +1,28 @@
+{
+    "name": "@nurlaney/boilerplate",
+    "version": "1.0.0",
+    "description": "xxx",
+    "main": "index.js",
+    "scripts": {
+        "start": "webpack --config webpack.config.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/codeacademyprogramming/14-05-2021-nurlaney.git"
+    },
+    "keywords": [
+        "webpack",
+        "boilerplate"
+    ],
+    "author": "nurlaney",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/codeacademyprogramming/14-05-2021-nurlaney/issues"
+    },
+    "homepage": "https://github.com/codeacademyprogramming/14-05-2021-nurlaney#readme",
+    "devDependencies": {
+        "webpack": "^5.37.0",
+        "webpack-cli": "^4.7.0"
+    }
+}
