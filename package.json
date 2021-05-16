@@ -23,6 +23,7 @@
     },
     "homepage": "https://github.com/codeacademyprogramming/14-05-2021-nurlaney#readme",
     "devDependencies": {
+        "bootstrap": "^5.0.1",
         "css-loader": "^5.2.4",
         "html-loader": "^2.1.2",
         "html-webpack-plugin": "^5.3.1",
