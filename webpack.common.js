@@ -9,7 +9,7 @@ module.exports = {
         clean: true
     },
     plugins: [new HtmlWebpackPlugin({
-        template: './src/templates/index.html'
+        template: './src/layouts/index.html'
     })],
     module: {
         rules: [{
