@@ -1,0 +1,38 @@
+@import '~bootstrap/scss/bootstrap';
+body {
+    background-color: teal;
+}
+
+.card {
+    img {
+        margin-left: 20px;
+        width: 100%;
+    }
+    margin-bottom: 20px;
+    margin: 10px 0;
+    width: auto !important;
+}
+
+.img-div {
+    width: 18%;
+}
+
+#dropwdown-cart {
+    position: absolute;
+    right: 0;
+    width: 200px;
+    background-color: #ffc107;
+    padding: 15px;
+    border-radius: 6px;
+    z-index: 1;
+    .cart-items {
+        border-bottom: 1px solid;
+    }
+    .img-div {
+        width: 100%;
+        text-align: center;
+        img {
+            width: 50%;
+        }
+    }
+}
